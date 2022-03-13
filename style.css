@@ -1,0 +1,84 @@
+body {
+  min-height: 2500px;
+  font-family: 'Comfortaa', cursive;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+#projects,
+#embed {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 4rem;
+}
+#navhov:hover {
+  border-radius: 10px;
+  background-color: #e2edff;
+}
+a {
+  text-decoration: none;
+}
+.pend,
+.hobi,
+.aktivitas {
+  padding: 0;
+}
+
+.pend:hover,
+.hobi:hover,
+.aktivitas:hover {
+  border-radius: 10px;
+  background-color: #e2edff;
+}
+
+#pend {
+  display: none;
+}
+
+#hobi {
+  display: none;
+}
+
+#aktivitas {
+  display: none;
+}
+
+img#kamil,
+img#tkd {
+  max-height: 400px;
+}
+
+img#card2 {
+  max-height: 235px;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+#radiobutton1,
+#radiobutton3,
+#radiobutton3,
+#radiobutton4 {
+  padding: 20px;
+}
+#htmlimg,
+#cssimg,
+#jsimg,
+#phpimg {
+  max-height: 200px;
+  height: 200px;
+}
+#htmlcard,
+#csscard,
+#jscard,
+#phpcard {
+  height: 243px;
+  max-height: 243px;
+}

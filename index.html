@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portofolio Alif Chandramaya</title>
+
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                Alif Chandramaya
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li id="navhov" class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li id="navhov" class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li id="navhov" class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li id="navhov" class="nav-item">
+                        <a class="nav-link" href="#gallerys">Gallerys</a>
+                    </li>
+                    <li id="navhov" class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="https://avatars.githubusercontent.com/u/76543130?v=4" alt="photo" width="200px"
+            class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Alif Chandramaya</h1>
+        <p class="lead">Saya adalah mahasiswa jurusan teknik informatika</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="100"
+                d="M0,128L40,138.7C80,149,160,171,240,154.7C320,139,400,85,480,64C560,43,640,53,720,69.3C800,85,880,107,960,112C1040,117,1120,107,1200,85.3C1280,64,1360,32,1400,16L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- Akhir Jumbotron-->
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="col-md-4 pend fs-4">Pendidikan</th>
+                                <th scope="col" class="col-md-4 aktivitas fs-4">Aktivitas</th>
+                                <th scope="col" class="col-md-4 hobi fs-4">Hobi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="pend">
+                                <td colspan="3">
+                                    <div class="card card-body">
+                                        <h3>Pendidikan Formal</h3>
+                                        <br>
+                                        <ol align="left">
+                                            <li>SMP Negeri 131 Jakarta</li>
+                                            <li>SMK Negeri 41 Jakarta</li>
+                                            <li>Universitas Indraprasta PGRI</li>
+                                        </ol>
+                                        <br>
+                                        <h3>Pendidikan Nonformal</h3>
+                                        <br>
+                                        <ol align="left">
+                                            <li>Pelatihan Junior Web Development - BPPTIK Kominfo</li>
+                                            <li>Belajar Dasar Pemrograman Web - Dicoding</li>
+                                        </ol>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="aktivitas">
+                                <td colspan="3">
+                                    <div id="carouselExampleDark" class="carousel carousel slide"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleDark"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleDark"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="10000">
+                                                <img id="tkd" src="img/tekwon.png" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>UKM Taekwondo Universitas Indraprasta PGRI</h5>
+                                                    <p>Saya mengikuti kegiatan ukm taekwondo Unindra PGRI sejak 2020 -
+                                                        saat ini.</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="2000">
+                                                <img id="kamil" src="img/kamil.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h5>Komunitas Mahasiswa Islam Universitas Indraprasta PGRI</h5>
+                                                    <p>Saya juga mengikuti kegiatan LDK Kampus, yaitu Kamil Unindra,
+                                                        saya mengikutinya sejak 2020 - saat ini.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="hobi">
+                                <td colspan="3">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Menonton
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <p>Saya hobi menonton film-film action, comedy, romance, historical,
+                                                        animasi terutama animasi jepang atau anime.
+                                                        <br><br>
+                                                        Menurut saya dengan menonton sebuah film dapat menambah wawasan
+                                                        serta ilmu yang dapat diterapkan dalam hidup, seperti
+                                                        mempelajari sebuah bela diri dari film, mempelajari bagaimana
+                                                        dunia ini tidak sepenuhnya berjalan sesuai dengan apa yang kita
+                                                        pikirkan dan rencanakan, mempelajari budaya, adat istiadat lain,
+                                                        menambah
+                                                        wawasan akan sejarah-sejarah yang sebelumnya kita tidak tahu,
+                                                        serta menambahkan kosa kata baru yang mungkin belum pernah
+                                                        kita ketahui, dan bahkan dapat menjadi sarana pembelajaran untuk
+                                                        mempelajari bahasa dari negara lain. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Olahraga
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <p>Beberapa olahraga yang pernah dan sedang saya ikuti diantaranya
+                                                        adalah: </p>
+                                                    <ol align="left">
+                                                        <li>Silat</li>
+                                                        <li>Taekwondo</li>
+                                                        <li>Lari</li>
+                                                        <li>Bersepeda</li>
+                                                        <li>Body builder</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Memelihara Hewan
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <p>Saya menyukai hewan, terutama pada kucing, layaknya Rasulullah
+                                                        Shollallahu 'Alaihi wa Sallam yang memiliki kucing kesayangan
+                                                        yang diberi nama Muezza</p>
+                                                    <hr>
+                                                    <p>Adapun, kisah wanita tersebut termaktub dalam hadis shahih yang
+                                                        dijumpai dalam riwayat Imam Bukhari dan Muslim. Rasulullah
+                                                        bersabda dari Abdullah bin Umar;</p>
+                                                    <p>أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:
+                                                        عُذِّبَتِ امْرَأَةٌ فِي هِرَّةٍ، سَجَنَتْهَا حَتَّى مَاتَتْ،
+                                                        فَدَخَلَتْ فِيهَا النَّارَ، لَا هِيَ أَطْعَمَتْهَا وَسَقَتْهَا،
+                                                        إِذْ هِيَ حَبَسَتْهَا، وَلَا هِيَ تَرَكَتْهَا تَأْكُلُ مِنْ
+                                                        خَشَاشِ الْأَرْضِ. رواه مسلم.</p>
+                                                    <p>
+                                                        Artinya; Sungguh Rasulullah saw. telah bersabda, “Ada seorang
+                                                        wanita yang diazab karena seekor kucing. Ia mengurung kucingnya
+                                                        sampai mati, lalu ia masuk neraka karenanya. Ia tidak memberikan
+                                                        makan dan minum kucingnya. Bahkan ia mengurungnya. Ia tidak
+                                                        meninggalkan makanan untuknya, sehingga ia memakan apa yang
+                                                        keluar dari bumi.” (H.R. Muslim).</p>
+                                                    <hr>
+                                                    <p>Saya saat ini memelihara</p>
+                                                    <ol align="left">
+                                                        <li>Kucing</li>
+                                                        <li>Ikan hias</li>
+                                                        <li>Ikan Predator</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFour">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false" aria-controls="flush-collapseFour">
+                                                    Membaca
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingFour"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <p>Saya juga hobi membaca, meluangkan waktu untuk membaca
+                                                        Al-Qur'anul Karim, membaca buku-buku tentang islam, buku novel,
+                                                        buku motivasi, buku komik.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e2edff" fill-opacity="1"
+                d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,181.3C560,160,640,128,720,117.3C800,107,880,117,960,144C1040,171,1120,213,1200,224C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col mb-3">
+                    <h3>My Projects</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text" id="temu" style="display: none;">Ruang Temu adalah website untuk para
+                                mahasiswa Unindra
+                                mencari teman
+                                yang sefrekuensi dimana dapat menemukan teman yang memiliki hobi maupun ketertarikan
+                                yang sama dengan anda</p>
+                            <a id="tentang1" onclick="tentang1()" class="btn btn-primary btn-lg" role="button">Learn
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="card2" src="img/kalku.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Kalkulator sederhana untuk penjumlahan, pengurangan, pembagian,
+                                perkalian, serta pangkat.</p>
+                            <a href="kalku/index.html" onclick="tentang1()" class="btn btn-primary btn-lg"
+                                role="button">Go To Kalkulator</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1"
+                d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,181.3C560,160,640,128,720,117.3C800,107,880,117,960,144C1040,171,1120,213,1200,224C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallerys">
+        <div class="container">
+            <div class="row text-center mb-2">
+                <h3>Gallery Programmer</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col mt-3 mb-4">
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check input-lg" name="btnradio" id="btnradio1" autocomplete="off"
+                            checked>
+                        <label class="btn btn-outline-primary" for="btnradio1">Show All</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio2">Front End</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio3">Back End</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio4">Mobile Programmer</label>
+                    </div>
+                </div>
+            </div>
+            <div id="frontend" class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="htmlimg" src="https://www.techfor.id/wp-content/uploads/2019/12/html.png"
+                            class="card-img-top" alt="HTML">
+                        <div id="htmlcard" class="card-body">
+                            <h4 id="h41" class="card-text">HTML</h4>
+                            <p>HyperText Markup Language atau HTML adalah bahasa markup standar (bukan sebuah bahasa
+                                pemrograman) untuk dokumen yang dirancang untuk ditampilkan di browser web.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropHTML">
+                                Learn More
+                            </button>
+
+                            <!-- Modal HTML -->
+                            <div class="modal fade" id="staticBackdropHTML" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu HTML?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan
+                                                untuk membuat struktur halaman website. </p>
+                                            <p>HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah
+                                                file. Dalam membuat file HTML, terdapat standar atau format khusus yang
+                                                harus diikuti. Format tersebut telah tertuang dalam standar kode
+                                                internasional atau ASCII (American Standard Code for Information
+                                                Interchange). </p>
+                                            <p>Dengan adanya HTML, pengguna dapat membuat atau menyusun heading,
+                                                paragraf, gambar, link, dan lainnya supaya dapat dilihat banyak orang
+                                                melalui halaman website. </p>
+                                            <p>Untuk bisa diakses secara umum, pengguna perlu membukanya lewat aplikasi
+                                                browser, seperti Internet Explorer, Chrome, atau Mozilla Firefox.</p>
+                                            <hr>
+                                            <h4>Fungsi HTML</h4>
+                                            <ol>
+                                                <li>Membuat Halaman Website</li>
+                                                <li>Menjadi Pondasi Website</li>
+                                                <li>Menandai Teks dan Bagian pada Halaman Website</li>
+                                                <li>Menampilkan Multimedia di Website</li>
+                                                <li>Mengarahkan Pengguna ke Halaman Website Lain</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="cssimg" src="http://x7d4c5z5.stackpathcdn.com/wp-content/uploads/2014/10/css3.jpg"
+                            class="card-img-top" alt="...">
+                        <div id="csscard" class="card-body">
+                            <h4 id="h42" class="card-text">CSS</h4>
+                            <p>Cascading Style Sheets atau CSS adalah bahasa style sheet yang digunakan untuk
+                                menggambarkan presentasi dokumen yang ditulis dalam bahasa markup seperti HTML.</p>
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropCSS">
+                                Learn More
+                            </button>
+
+                            <!-- Modal CSS -->
+                            <div class="modal fade" id="staticBackdropCSS" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu CSS?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>CSS adalah kepanjangaan dari Cascading Style Sheets yang berguna untuk
+                                                menyederhanakan proses pembuatan website dengan mengatur elemen yang
+                                                tertulis di bahasa markup.</p>
+                                            <p>CSS dipakai untuk mendesain halaman depan atau tampilan website (front
+                                                end). CSS menangani tampilan dan ‘rasa’ dari halaman website.</p>
+                                            <p>Ada banyak hal yang dapat Anda lakukan menggunakan CSS dibandingkan
+                                                dengan bahasa pemrograman inti seperti HTML dan PHP. Ketika menggunakan
+                                                CSS, Anda dapat mengatur warna teks, jenis font, baris antar paragraf,
+                                                ukuran kolom, dan jenis background yang dipakai.</p>
+                                            <p>Tidak hanya itu CSS juga bisa untuk mendesain layout, variasi tampilan di
+                                                berbagai perangkat yang berbeda, dan berbagai efek yang dipakai di dalam
+                                                website.</p>
+                                            <p>CSS sangat mudah dipelajari, tapi juga powerful karena dapat mengontrol
+                                                penyajian tampilan dari dokumen HTML. Mulai dari yang simpel sampai
+                                                kompleks. Tidak heran jika saat ini CSS hampir dipakai di berbagai
+                                                website untuk dikombinasikan dengan HTML maupun PHP.</p>
+                                            <hr>
+                                            <h4>Fungsi CSS</h4>
+                                            <ol>
+                                                <li>Mempercepat Proses Desain</li>
+                                                <li>Halaman Lebih Cepat Dimuat</li>
+                                                <li>Proses Pemeliharaan Mudah</li>
+                                                <li>Style Lebih Beragam Dibanding HTML</li>
+                                                <li>Kompatibel Dengan Berbagai Macam Perangkat</li>
+                                                <li>CSS Menjadi Standar Pengembangan Website</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="jsimg"
+                            src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/04/javascript.png"
+                            class="card-img-top" alt="...">
+                        <div id="jscard" class="card-body">
+                            <h4 id="h43" class="card-text">JavaScript</h4>
+                            <p>JavaScript atau JS adalah bahasa pemrograman yang paling banyak digunakan dalam
+                                pengembangan website, aplikasi, game, dan lainnya.</p>
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropJS">
+                                Learn More
+                            </button>
+
+                            <!-- Modal CSS -->
+                            <div class="modal fade" id="staticBackdropJS" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu JavaScript?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat
+                                                situs dengan konten website yang dinamis. Konten dinamis artinya konten
+                                                dapat bergerak atau berubah di depan layar tanpa perlu mereload halaman.
+                                                Misalnya saja, fitur slideshow foto, gambar animasi, pengisian poling,
+                                                dan lainnya.</p>
+                                            <p>JavaScript sendiri sebenarnya biasanya dikolaborasikan dengan HTML dan
+                                                CSS. Di mana HTML digunakan untuk membuat struktur website dan CSS untuk
+                                                merancang style halaman website. Lalu, JavaScript berperan menambahkan
+                                                elemen interaktif untuk meningkatkan engagement pengguna.</p>
+                                            <p>Oya, JavaScript awalnya adalah bahasa pemrograman yang hanya bekerja dari
+                                                sisi klien atau front end. Artinya proses pengolahan kode hanya akan
+                                                berjalan di browser.</p>
+                                            <p>Saat itu Google membuat bahasa pemrograman ini semakin populer dengan
+                                                menggunakan AJAX untuk fitur suggestion di kolom pencarian. AJAX alias
+                                                Asynchronous JavaScript and XML adalah teknik pembaruan data halaman web
+                                                tanpa proses reload.</p>
+                                            <p>Seiring perkembangannya, JavaScript tak hanya bisa digunakan di sisi
+                                                client, tetapi juga di sisi server. Eksekusi bahasa pemrograman ini di
+                                                sisi server dapat dilakukan dengan memanfaatkan platform framework
+                                                JavaScript seperti Node.js, React.js, dan lainnya.</p>
+                                            <p>Dengan framework, banyak backend developer mulai banyak melirik bahasa
+                                                pemrograman ini. Sehingga lahirlah produk-produk canggih seperti
+                                                aplikasi untuk mobile, website aplikasi, hingga game online.</p>
+                                            <hr>
+                                            <h4>Fungsi JavaScript</h4>
+                                            <ol>
+                                                <li>Membuat Website Lebih Menarik</li>
+                                                <li>Menciptakan Aplikasi Mobile</li>
+                                                <li>Mengembangkan Game Berbasis Web Browser</li>
+                                                <li>Menjalankan Web Server</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="backend" class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="phpimg"
+                            src="https://blogger.googleusercontent.com/img/a/AVvXsEhMd1QZ7r_fg02pzJllPbNB901EwRg_LdAJ8nV1HCLelQTIxuaEU8YSwDTuU3Occni3-fwUizC3xCZrIFpawwLTN1M8nwIf3hmwBlSPZIkNislc-e7tBfrOAgYAWjXMZy6bLkRNLPHnmplEvo8INR5BwBaWFHbizLabWNXXiFXJUXi_7pHqMafYl24Y=s16000"
+                            class="card-img-top" alt="PHP">
+                        <div id="phpcard" class="card-body">
+                            <h4 id="h44" class="card-text">PHP</h4>
+                            <p>PHP: Hypertext Preprocessor atau hanya PHP saja. adalah bahasa skrip dengan fungsi umum
+                                yang terutama digunakan untuk pengembangan web.</p>
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Learn More
+                            </button>
+
+                            <!-- Modal CSS -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu HTML?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan
+                                                untuk membuat struktur halaman website. </p>
+                                            <p>HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah
+                                                file. Dalam membuat file HTML, terdapat standar atau format khusus yang
+                                                harus diikuti. Format tersebut telah tertuang dalam standar kode
+                                                internasional atau ASCII (American Standard Code for Information
+                                                Interchange). </p>
+                                            <p>Dengan adanya HTML, pengguna dapat membuat atau menyusun heading,
+                                                paragraf, gambar, link, dan lainnya supaya dapat dilihat banyak orang
+                                                melalui halaman website. </p>
+                                            <p>Untuk bisa diakses secara umum, pengguna perlu membukanya lewat aplikasi
+                                                browser, seperti Internet Explorer, Chrome, atau Mozilla Firefox.</p>
+                                            <hr>
+                                            <h4>Fungsi HTML</h4>
+                                            <ol>
+                                                <li>Membuat Halaman Website</li>
+                                                <li>Menjadi Pondasi Website</li>
+                                                <li>Menandai Teks dan Bagian pada Halaman Website</li>
+                                                <li>Menampilkan Multimedia di Website</li>
+                                                <li>Mengarahkan Pengguna ke Halaman Website Lain</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="dbimg" src="img/3.jpg" class="card-img-top" alt="...">
+                        <div id="dbcard" class="card-body">
+                            <h4 id="h45" class="card-text">Database</h4>
+                            <p>Database merupakan salah satu bagian terpenting dari website. Karena di sanalah seluruh
+                                data website tersimpan.</p>
+                            <p>
+                                Dengan melatih kemampuan mengelola database, kamu bisa dengan mudah mengatur data di
+                                dalam database. Contohnya menambahkan data baru atau menghapus data yang ada.</p>
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Learn More
+                            </button>
+
+                            <!-- Modal CSS -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu HTML?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan
+                                                untuk membuat struktur halaman website. </p>
+                                            <p>HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah
+                                                file. Dalam membuat file HTML, terdapat standar atau format khusus yang
+                                                harus diikuti. Format tersebut telah tertuang dalam standar kode
+                                                internasional atau ASCII (American Standard Code for Information
+                                                Interchange). </p>
+                                            <p>Dengan adanya HTML, pengguna dapat membuat atau menyusun heading,
+                                                paragraf, gambar, link, dan lainnya supaya dapat dilihat banyak orang
+                                                melalui halaman website. </p>
+                                            <p>Untuk bisa diakses secara umum, pengguna perlu membukanya lewat aplikasi
+                                                browser, seperti Internet Explorer, Chrome, atau Mozilla Firefox.</p>
+                                            <hr>
+                                            <h4>Fungsi HTML</h4>
+                                            <ol>
+                                                <li>Membuat Halaman Website</li>
+                                                <li>Menjadi Pondasi Website</li>
+                                                <li>Menandai Teks dan Bagian pada Halaman Website</li>
+                                                <li>Menampilkan Multimedia di Website</li>
+                                                <li>Mengarahkan Pengguna ke Halaman Website Lain</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="webserverimg" src="img/3.jpg" class="card-img-top" alt="...">
+                        <div id="webservercard" class="card-body">
+                            <h4 id="h46" class="card-text">Web Server</h4>
+                            <p>web server adalah software yang dapat memproses request dari pengunjung website. Sehingga
+                                kemudian browser dapat menampilkan halaman website sesuai dengan request pengunjung.</p>
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Learn More
+                            </button>
+
+                            <!-- Modal CSS -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="staticBackdropLabel">Apa itu HTML?</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan
+                                                untuk membuat struktur halaman website. </p>
+                                            <p>HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah
+                                                file. Dalam membuat file HTML, terdapat standar atau format khusus yang
+                                                harus diikuti. Format tersebut telah tertuang dalam standar kode
+                                                internasional atau ASCII (American Standard Code for Information
+                                                Interchange). </p>
+                                            <p>Dengan adanya HTML, pengguna dapat membuat atau menyusun heading,
+                                                paragraf, gambar, link, dan lainnya supaya dapat dilihat banyak orang
+                                                melalui halaman website. </p>
+                                            <p>Untuk bisa diakses secara umum, pengguna perlu membukanya lewat aplikasi
+                                                browser, seperti Internet Explorer, Chrome, atau Mozilla Firefox.</p>
+                                            <hr>
+                                            <h4>Fungsi HTML</h4>
+                                            <ol>
+                                                <li>Membuat Halaman Website</li>
+                                                <li>Menjadi Pondasi Website</li>
+                                                <li>Menandai Teks dan Bagian pada Halaman Website</li>
+                                                <li>Menampilkan Multimedia di Website</li>
+                                                <li>Mengarahkan Pengguna ke Halaman Website Lain</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e2edff" fill-opacity="1"
+                d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,181.3C560,160,640,128,720,117.3C800,107,880,117,960,144C1040,171,1120,213,1200,224C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- Akhir Gallery -->
+
+    <!-- Embeded Youtube -->
+    <div id="embed">
+        <div class="ratio ratio-4x3">
+            <iframe src="https://www.youtube.com/embed/ohS9rTjg9iQ" title="YouTube video" allowfullscreen></iframe>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1"
+                d="M0,160L48,176C96,192,192,224,288,202.7C384,181,480,107,576,96C672,85,768,139,864,176C960,213,1056,235,1152,208C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!-- Akhir Embeded Youtube -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan <i class="bi bi-chat-left-text"></i></label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="submit" onclick="kirim()" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f8f9fa" fill-opacity="1"
+                d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,181.3C560,160,640,128,720,117.3C800,107,880,117,960,144C1040,171,1120,213,1200,224C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-light text-center pb-5">
+        <p>
+            Created By <a href="https://www.instagram.com/alif_chandra10/" class="text-dark fw-bold">Alif
+                Chandramaya</a>
+        </p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- JS External -->
+    <script src="js.js"></script>
+
+    <!-- Jquery link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- JQUERY Internal -->
+    <script>
+        $(document).ready(function () {
+            //button About
+            $(".pend").click(function () {
+                $('#pend').show('fast');
+                $('#hobi').hide('fast');
+                $('#aktivitas').hide('fast');
+            });
+            $(".hobi").click(function () {
+                $('#hobi').show('fast');
+                $(".hobi").addClass('active');
+                $('#pend').hide('fast');
+                $('#aktivitas').hide('fast');
+            });
+            $(".aktivitas").click(function () {
+                $('#aktivitas').show('fast');
+                $(".aktivitas").addClass('active');
+                $('#pend').hide('fast');
+                $('#hobi').hide('fast');
+            });
+            //button Gallerys
+            $("#btnradio1").click(function () {
+                $('#frontend').show('fast');
+                $('#backend').show('fast');
+            })
+            $("#btnradio2").click(function () {
+                $('#frontend').show('fast');
+                $('#backend').hide('fast');
+            })
+            $("#btnradio3").click(function () {
+                $('#backend').show('fast');
+                $('#frontend').hide('fast');
+            })
+        });
+    </script>
+
+    <!-- JS from CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
