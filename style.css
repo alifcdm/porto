@@ -1,6 +1,6 @@
 body {
   min-height: 2500px;
-  font-family: 'Comfortaa', cursive;
+  font-family: cursive;
 }
 .jumbotron {
   padding-top: 6rem;
@@ -52,6 +52,7 @@ img#tkd {
 
 img#card2 {
   max-height: 235px;
+  height: 235px;
 }
 
 h1 {
@@ -67,18 +68,4 @@ h4 {
 #radiobutton3,
 #radiobutton4 {
   padding: 20px;
-}
-#htmlimg,
-#cssimg,
-#jsimg,
-#phpimg {
-  max-height: 200px;
-  height: 200px;
-}
-#htmlcard,
-#csscard,
-#jscard,
-#phpcard {
-  height: 243px;
-  max-height: 243px;
 }
