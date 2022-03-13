@@ -2,18 +2,17 @@ function kirim() {
   let nama = document.getElementById('name').value;
   let pesan = document.getElementById('pesan').value;
   //validasi email
-  var rs = document.forms['formInput']['email'].value;
+  let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  let rs = document.getElementById('email').value;
 
-  var atps = rs.indexOf('@');
-  var dots = rs.lastIndexOf('.');
-  if (atps < 1 || dots < atps + 2 || dots + 2 >= rs.length) {
-    alert('Alamat email tidak valid.');
-    return false;
-  } else {
+  if (rs.match(mailformat)) {
     alert(`Hai, ${nama}
     \nemail kamu adalah ${rs}
     \npesan kamu adalah ${pesan}
     \nTerima kasih atas pesan kritik/saran yang telah kamu kirimkan, secepatnya akan saya tanggapi pesan dari kamu :)`);
+  } else {
+    alert('Alamat email tidak valid.');
+    return false;
   }
   //akhir validasi
 }
